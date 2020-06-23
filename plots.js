@@ -22,7 +22,7 @@ d3.json("data/data.json").then((importedData) => {
     text: data.map(row => row.greekName),
     name: "Greek",
     type: "bar",
-    orientation: "h"
+    orientation: "v"
   };
 
   // data
